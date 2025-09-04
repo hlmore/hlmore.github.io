@@ -1,0 +1,26 @@
+:root {
+    --main-bg-colour: #212121;
+    --main-text-colour: #dadada;
+    --accent-colour: #90AF40;
+}
+
+body {
+    background-color: var(--main-bg-colour);
+    color: var(--main-text-colour);
+    text-align: center;
+    font-family: monospace;
+}
+
+a {
+    color: var(--accent-colour);
+    /* text-decoration: none; */
+}
+
+a:visited {
+    color: var(--accent-colour);
+}
+
+a:hover {
+    background-color: var(--accent-colour);
+    color: var(--main-bg-colour);
+}
